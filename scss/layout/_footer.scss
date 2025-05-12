@@ -1,0 +1,287 @@
+.footer {
+}
+.footer__container {
+}
+.container {
+}
+.footer__content {
+}
+.footer__title {
+  width: 15.2rem;
+  height: 6rem;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 6rem;
+  color: #21243d;
+  padding-top: 1.5rem;
+}
+
+.footer__dashboard {
+  margin-top: 2.2rem;
+}
+.dashboard__content {
+  margin-top: -16rem;
+  margin-left: 28rem;
+}
+.dashboard__img {
+  width: 24.6rem;
+  height: 18rem;
+  border-radius: 0.8rem;
+}
+.dashboard__title {
+  width: 40rem;
+  height: 4.4rem;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 100%;
+  color: #21243d;
+}
+.dashboard__data {
+  width: 6.2rem;
+  height: 2.5rem;
+  border-radius: 1.6rem;
+  padding-left: -0.1rem;
+  padding-right: 1rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #ffffff;
+  background-color: #142850;
+}
+.dashboard__name {
+  width: 37.4rem;
+  height: 3.4rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 100%;
+  color: #8695a4;
+  margin-top: -2.2rem;
+  margin-left: 10rem;
+}
+.dashboard__description {
+  width: 55rem;
+  height: 9.3rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: #21243d;
+  padding-top: 2.2rem;
+}
+// MARGIN LEFT AUTO RIGHT AUTO BERSAM O'RTAGA KELMADI SHUNING UCHUN REM DA BERDIM
+@media screen and (max-width: 400px) {
+  .footer {
+    margin-top: 30rem;
+    margin-left: auto;
+    margin-right: autos;
+  }
+  .footer__title {
+    margin-right: auto;
+  }
+  .dashboard__img {
+    width: 33.9rem;
+    height: 23rem;
+  }
+  .dashboard__title {
+    margin-top: 18rem;
+    margin-left: -27rem;
+  }
+  .dashboard__data {
+    margin-top: 2rem;
+    margin-left: -28rem;
+  }
+  .dashboard__name {
+    margin-left: -18rem;
+  }
+  .dashboard__description {
+    width: 34.4rem;
+    height: 9.6rem;
+    margin-left: -28rem;
+  }
+}
+.footer__vibrant {
+  display: flex;
+  margin-top: 3rem;
+}
+.vibrant__img {
+  width: 24.6rem;
+  height: 18rem;
+  border-radius: 0.6rem;
+}
+.vibrant__content {
+}
+.vibrant__title {
+  width: 38rem;
+  height: 4.4rem;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 100%;
+  color: #21243d;
+  padding-left: 1.8rem;
+}
+.vibrant__data {
+  width: 6.2rem;
+  height: 2.5rem;
+  border-radius: 1.6rem;
+  color: #ffffff;
+  background-color: #142850;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-left: 1.8rem;
+}
+.vibrant__name {
+  width: 37.4rem;
+  height: 3.4rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 100%;
+  color: #8695a4;
+  padding-left: 10.6rem;
+  margin-top: -2rem;
+}
+.vibrant__description {
+  width: 55rem;
+  height: 9.3rem;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: #21243d;
+  padding-left: 1.8rem;
+}
+// MARGIN LEFT AUTO RIGHT AUTO BERSAM O'RTAGA KELMADI SHUNING UCHUN REM DA BERDIM
+@media screen and (max-width: 400px) {
+  .vibrant__title {
+    width: 38rem;
+    height: 4.4rem;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 26rem;
+    margin-left: -36rem;
+  }
+  .vibrant__img {
+    width: 33.9rem;
+    height: 23rem;
+  }
+  .vibrant__data {
+    margin-left: -34rem;
+  }
+  .vibrant__name {
+    margin-left: -34rem;
+  }
+  .vibrant__description {
+    width: 34.4rem;
+    height: 9.6rem;
+    margin-left: -36rem;
+  }
+}
+
+.footer__malayalam {
+  padding-top: 6.6rem;
+  display: flex;
+}
+.malayalam__img {
+  width: 24.6rem;
+  height: 18.4rem;
+  border-radius: 0.6rem;
+}
+.malayalam__content {
+}
+.malayalam__title {
+  width: 39rem;
+  height: 4.4rem;
+  font-weight: 700;
+  font-size: 3rem;
+  font-size: 3rem;
+  line-height: 100%;
+  color: #21243d;
+  padding-left: 1.8rem;
+}
+.malayalam__data {
+  width: 6.2rem;
+  height: 2.5rem;
+  border-radius: 1.6rem;
+  background-color: #142850;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-top: 3rem;
+  margin-left: 1.8rem;
+}
+.malayalam__name {
+  width: 387.4rem;
+  height: 3.4rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 100%;
+  color: #8695a4;
+  margin-top: -2.6rem;
+  margin-left: 10.6rem;
+}
+.malayalam__description {
+  width: 50.7rem;
+  height: 9.3rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: #21243d;
+  padding-left: 1.8rem;
+}
+
+@media screen and (max-width: 400px) {
+  .footer__malayalam {
+    margin-top: -5rem;
+  }
+  .malayalam__content {
+    margin-top: 25rem;
+    margin-left: -32rem;
+  }
+  .malayalam__title {
+    width: 38rem;
+    height: 4.4rem;
+    font-weight: 700;
+  }
+  .malayalam__img {
+    width: 33.9rem;
+    height: 23rem;
+  }
+  .malayalam__description {
+    width: 34.4rem;
+    height: 9.6rem;
+  }
+}
+
+.cta {
+}
+.cta__content {
+  display: flex;
+  margin-top: 16.6rem;
+  margin-left: 29rem;
+  gap: 3.5rem;
+}
+.cta__facebook {
+}
+.cta__instagram {
+}
+.cta__twiter {
+}
+.cta__linkedin {
+}
+.cta__title {
+}
+.cta__main__title {
+  width: 22.2rem;
+  height: 2.1rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 100%;
+  color: #21243d;
+  padding-top: 2.6rem;
+  margin-left: 30rem;
+}
+
+@media screen and (max-width: 400px) {
+  .cta__content {
+    margin-left: 2.5rem;
+    margin-top: 8rem;
+  }
+  .cta__main__title {
+    margin-left: 2.5rem;
+  }
+}
