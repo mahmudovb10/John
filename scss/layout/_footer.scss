@@ -1,11 +1,3 @@
-.footer {
-}
-.footer__container {
-}
-.container {
-}
-.footer__content {
-}
 .footer__title {
   width: 15.2rem;
   height: 6rem;
@@ -106,8 +98,6 @@
   height: 18rem;
   border-radius: 0.6rem;
 }
-.vibrant__content {
-}
 .vibrant__title {
   width: 38rem;
   height: 4.4rem;
@@ -181,8 +171,6 @@
   height: 18.4rem;
   border-radius: 0.6rem;
 }
-.malayalam__content {
-}
 .malayalam__title {
   width: 39rem;
   height: 4.4rem;
@@ -246,24 +234,27 @@
     height: 9.6rem;
   }
 }
-
-.cta {
+@media screen and (max-width: 390px) {
+  .footer__container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 352px) {
+  .footer__container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 .cta__content {
   display: flex;
   margin-top: 16.6rem;
   margin-left: 29rem;
   gap: 3.5rem;
-}
-.cta__facebook {
-}
-.cta__instagram {
-}
-.cta__twiter {
-}
-.cta__linkedin {
-}
-.cta__title {
 }
 .cta__main__title {
   width: 22.2rem;
@@ -351,8 +342,6 @@
     font-weight: 700;
     font-size: 3rem;
   }
-  .component__data {
-  }
   .component__description {
     width: 34.4rem;
     height: 9.6rem;
@@ -366,5 +355,162 @@
   }
   .work__cta {
     margin-left: 5rem;
+  }
+}
+.section__container {
+  margin-top: 14.8rem;
+}
+.section__title {
+  width: 45rem;
+  height: 10rem;
+  font-weight: 700;
+  font-size: 3.4rem;
+  color: #21243d;
+}
+.section__data {
+  width: 6.2rem;
+  height: 2.5rem;
+  border-radius: 1.6rem;
+  background-color: #ff7c7c;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-top: 3.2rem;
+}
+.section__theme {
+  width: 37.4rem;
+  height: 3.4rem;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #21243d;
+  margin-left: 10rem;
+  margin-top: -2.4rem;
+}
+.section__description {
+  width: 68.1rem;
+  height: 4.4rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #000000;
+  padding-top: 2.3rem;
+}
+.detail__img__one {
+  width: 68.1rem;
+  height: 46rem;
+  padding-top: 4.6rem;
+}
+@media screen and (max-width: 400px) {
+  .section__title {
+    width: 33.9rem;
+    height: 8rem;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .detail__img {
+    width: 33.9rem;
+    height: 25.6rem;
+    margin-top: -13rem;
+  }
+  .section__theme {
+    width: 26.2rem;
+    height: 5.2rem;
+    font-size: 1.8rem;
+  }
+  .detail__nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section__description {
+    width: 33.9rem;
+    height: 25.6rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+  .section__content {
+    margin-top: -10rem;
+  }
+}
+.detail__title__one {
+  width: 50.6rem;
+  height: 4.5rem;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 6rem;
+  color: #21243d;
+  margin-top: 25rem;
+}
+.detail__title__two {
+  width: 50.6rem;
+  height: 8.2rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 6rem;
+  color: #21243d;
+}
+.detail__description {
+  width: 67.7rem;
+  height: 4.8rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000000;
+}
+.detail__main__img__one {
+  width: 82rem;
+  height: 46rem;
+  padding-top: 3rem;
+}
+@media screen and (max-width: 400px) {
+  .detail__title__one {
+    width: 11.9rem;
+    height: 6rem;
+    font-weight: 500;
+    font-size: 2.6rem;
+    line-height: 6rem;
+  }
+  .detail__title__two {
+    width: 9.2rem;
+    height: 6rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 6rem;
+  }
+  .detail__description {
+    width: 33.9rem;
+    height: 9.6rem;
+  }
+  .detail__main__img__one {
+    width: 33.9rem;
+    height: 25.6rem;
+  }
+  .footer__content__detail {
+    margin-top: -50rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+.detail__main__img__two {
+  width: 82rem;
+  height: 46rem;
+  margin-top: 2.7rem;
+}
+
+@media screen and (max-width: 400px) {
+  .detail__main__img__two {
+    width: 33.9rem;
+    height: 25.7rem;
+  }
+}
+
+.cta__detail {
+  margin-left: 32rem;
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+@media screen and (max-width: 400px) {
+  .cta__detail {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
