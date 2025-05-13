@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Heebo", sans-serif;
+  font-size: 1.6rem;
   overflow-x: hidden;
 }
 main {
@@ -37,7 +38,7 @@ h1 {
 }
 .container {
   width: 100%;
-  max-width: 1200px; // Bu o'zgaruvchan.
+  max-width: 1251px; // Bu o'zgaruvchan.
   margin-left: auto;
   margin-right: auto;
   padding-left: 5rem;
